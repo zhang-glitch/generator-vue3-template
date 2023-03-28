@@ -1,0 +1,15 @@
+<template>
+  <div class='{{name}}'>{{name}}</div>
+</template>
+<script lang='ts' setup></script>
+<script lang='ts'>
+  import { defineComponent } from 'vue'
+
+  export default defineComponent({
+    name: '{{name}}',
+    inheritAttrs: false
+  })
+</script>
+<style scoped lang='scss'>
+  .{{name}}{}
+</style>

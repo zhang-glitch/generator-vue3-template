@@ -1,0 +1,15 @@
+<template>
+  <div class='{{dirname}}'>{{dirname}}</div>
+</template>
+<script lang='ts' setup></script>
+<script lang='ts'>
+  import { defineComponent } from 'vue'
+
+  export default defineComponent({
+    name: '{{dirname}}',
+    inheritAttrs: false
+  })
+</script>
+<style scoped lang='scss'>
+  .{{dirname}}{}
+</style>

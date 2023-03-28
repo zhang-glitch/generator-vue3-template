@@ -1,0 +1,26 @@
+import { IRootState } from '../../type'
+import { Module } from 'vuex'
+import { I{{name}}StateType } from './type'
+
+const login: Module<I{{name}}StateType, IRootState> = {
+  namespaced: true,
+  state() {
+    return {
+      language: ''
+    }
+  },
+  mutations: {
+    setLanguage(state, language) {
+      state.language = language
+    }
+  },
+  actions: {
+    // 处理login请求
+    async setLanguage({ commit }, payload: any) {
+      commit('setLanguage', payload)
+    }
+  },
+  modules: {}
+}
+
+export default login
