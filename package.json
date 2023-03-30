@@ -1,13 +1,14 @@
 {
   "name": "generator-hm-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "a vue+ts universal cli",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": ["vue3", "ts", "cli"],
-  "author": "",
+  "keywords": [
+    "vue3",
+    "ts",
+    "cli"
+  ],
+  "author": "zhang-glitch",
   "license": "ISC",
   "dependencies": {
     "yeoman-generator": "^5.8.0"
